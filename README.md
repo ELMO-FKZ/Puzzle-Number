@@ -22,7 +22,7 @@ The game is a sliding puzzle that consists of a square frame with numbered squar
 
 ## Demo
 
-Here is a working live demo : https://trackit-7va8.onrender.com
+Here is a working live demo : https://number-puzzle.onrender.com
 
 
 ## Features
