@@ -1,0 +1,28 @@
+.indicators {
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 3rem;
+border: 3px solid var(--dark-text-color);
+overflow: hidden;
+font-size: 2rem;
+margin-bottom: 2rem; }
+  .indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--background-color);
+  background-color: var(--dark-text-color); }
+    .indicator svg {
+    display: block;
+    height: 100%;
+    width: auto; }
+    .indicator-value {
+    padding: 0.5rem 1rem;
+    background-color: var(--background-color);
+    color: var(--dark-text-color);
+    font-weight: 500; }
+    .indicator--right svg {
+    padding: 0.5rem 0.5rem 0.5rem 0; }
+    .indicator--left svg {
+    padding: 0.5rem 0 0.5rem 0.5rem; }

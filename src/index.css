@@ -1,0 +1,83 @@
+/*------------------------*\
+# CSS VARIABLES
+\*------------------------*/
+
+:root  { 
+--square-tile-size: 25%;
+--background-color: #eadbf0;
+--dark-text-color: #754091;
+--light-text-color: #fff;
+--board-color: #e0cae7;
+--default-tile-color: #673ab7;
+--correct-tile-color: #e91e63;
+--font-family: 'Roboto', sans-serif;
+--main-duration : 0.3s; }
+  
+/*------------------------*\
+# GLOBAL RULES
+\*------------------------*/
+
+*, *::before, *::after { 
+margin: 0;
+box-sizing: border-box;
+padding: 0; } 
+
+html { 
+font-size: 62.5%; 
+scroll-behavior: smooth; } 
+@media (max-width: 61.9375em) {
+html {
+font-size: 56%; } }
+@media (min-width: 75em) {
+html {
+font-size: 65%; } }
+
+body { 
+overflow-x: hidden;
+font-size: 1.7rem;
+line-height: 1.15;
+font-family: var(--font-family);
+font-weight: 400;
+color: var(--dark-text-color);
+background-color: var(--background-color); } 
+
+h1 { 
+text-align: center;
+margin-bottom: 3rem;
+font-size: 4rem;
+line-height: 1.5;
+letter-spacing: 0.5rem;
+font-weight: 500;
+user-select: none; }
+@media (max-width: 24em) {
+h1 {
+font-size: 3rem; } }
+
+button {
+border: none;
+cursor: pointer;
+user-select: none; }
+
+/*------------------------*\
+# REUSABLE CSS CLASSES
+\*------------------------*/
+
+.controls {
+text-align: center; 
+margin-top: 2rem;}
+  .control {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+  color: var(--dark-text-color);
+  background-color: transparent;
+  border-radius: 50%;
+  border: 3px solid var(--dark-text-color); }
+  .control:not(:last-child) {
+  margin-right: 1rem; }
+  .control:hover {
+  color: var(--correct-tile-color);
+  border: 3px solid var(--correct-tile-color); }

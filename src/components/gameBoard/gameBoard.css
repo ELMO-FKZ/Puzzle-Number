@@ -1,0 +1,7 @@
+.board {
+display: grid;
+gap: 2rem;
+aspect-ratio: 1/1;
+border-radius: 1rem;
+background-color: var(--board-color);
+padding: 2rem; }

@@ -1,0 +1,15 @@
+.winner {
+aspect-ratio: 1/1;
+border-radius: 1rem;
+background-color: var(--board-color);
+padding: 2rem; }
+    .winner__msg {
+    line-height: 1.7; }
+        .winner__msg-para:not(:last-child) {
+        text-align: justify;
+        margin-bottom: 3rem; }
+        .winner__msg-para:last-child {
+        text-align: center;
+        font-weight: 600; }
+            .winner__msg-para span {
+            font-weight: 600; }

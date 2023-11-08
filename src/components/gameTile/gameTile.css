@@ -1,0 +1,17 @@
+.tile {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--default-tile-color);
+color: var(--light-text-color);
+cursor: pointer;
+font-size: 3rem;
+transition: all var(--main-duration) ease }
+@media (max-width: 18em) { 
+.tile {
+font-size: 2.5rem; } }
+.title--disabled {
+background-color: transparent;
+pointer-events: none; }
+.tile--correct {
+background-color: var(--correct-tile-color); }

@@ -1,0 +1,23 @@
+.msg-banner {
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 3rem;
+border: 3px solid var(--dark-text-color);
+background-color: var(--dark-text-color);
+overflow: hidden;
+font-size: 2rem;
+margin-bottom: 2rem; }
+    .msg-banner svg {
+    display: block;
+    height: 100%;
+    width: auto;
+    padding: 0.5rem;
+    color: var(--background-color); }
+    .msg-banner__content {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--background-color);
+    color: var(--dark-text-color);
+    font-weight: 500; }
